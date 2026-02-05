@@ -483,6 +483,26 @@ section {
     color: #1d4ed8;
 }
 
+/* Feltűnő gomb: megtekintés */
+.project-link--btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.65rem 1.25rem;
+    background: linear-gradient(135deg, #281754 0%, #3b2b6b 100%);
+    color: #fff !important;
+    border-radius: 8px;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-link--btn:hover {
+    color: #fff !important;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(40, 23, 84, 0.4);
+}
+
 /* Contact Section */
 .contact-content {
     display: flex;
