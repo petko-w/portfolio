@@ -9,25 +9,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <a href="index.html">Portfolio</a>
-            </div>
-            <ul class="nav-menu">
-                <li class="nav-item"><a href="index.html#home" class="nav-link">Kezdőlap</a></li>
-                <li class="nav-item"><a href="index.html#about" class="nav-link">Rólam</a></li>
-                <li class="nav-item"><a href="index.html#skills" class="nav-link">Készségek</a></li>
-                <li class="nav-item"><a href="index.html#projects" class="nav-link">Projects</a></li>
-                <li class="nav-item"><a href="index.html#contact" class="nav-link">Kapcsolat</a></li>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </div>
-    </nav>
 
     <main class="container gallery-page">
         <a href="index.html#projects" class="back-to-portfolio" title="Vissza a portfólióra"><i class="fas fa-arrow-left"></i> Vissza a portfólióra</a>
@@ -38,25 +19,25 @@
         <section class="gallery-grid">
             <article class="gallery-item">
                 <button type="button" class="gallery-img-wrap" aria-label="Kép nagyítása">
-                    <img src="cipo.png" alt="Nike Air Force 1" loading="lazy" class="gallery-img" data-lightbox>
+                    <img src="cipo.png" alt="Nike Air Force 1" loading="lazy" class="gallery-img" data-lightbox onerror="this.onerror=null;this.src='images/cipo.png';">
                 </button>
                 <h2 class="gallery-caption">🟣</h2>
             </article>
             <article class="gallery-item">
                 <button type="button" class="gallery-img-wrap" aria-label="Kép nagyítása">
-                    <img src="szarvas.png" alt="Szarvas" loading="lazy" class="gallery-img" data-lightbox>
+                    <img src="szarvas.png" alt="Szarvas" loading="lazy" class="gallery-img" data-lightbox onerror="this.onerror=null;this.src='images/szarvas.png';">
                 </button>
                 <h2 class="gallery-caption">🦌 ✨</h2>
             </article>
             <article class="gallery-item">
                 <button type="button" class="gallery-img-wrap" aria-label="Kép nagyítása">
-                    <img src="vulcan.png" alt="Vulcan AK-47" loading="lazy" class="gallery-img" data-lightbox>
+                    <img src="vulcan.png" alt="Vulcan AK-47" loading="lazy" class="gallery-img" data-lightbox onerror="this.onerror=null;this.src='images/vulcan.png';">
                 </button>
                 <h2 class="gallery-caption gallery-caption--blue">Vulcan AK-47</h2>
             </article>
             <article class="gallery-item">
                 <button type="button" class="gallery-img-wrap" aria-label="Kép nagyítása">
-                    <img src="mrbeast.png" alt="MrBeast effect" loading="lazy" class="gallery-img" data-lightbox>
+                    <img src="mrbeast.png" alt="MrBeast effect" loading="lazy" class="gallery-img" data-lightbox onerror="this.onerror=null;this.src='images/mrbeast.png';">
                 </button>
                 <h2 class="gallery-caption gallery-caption--red">MrBeast effect</h2>
             </article>
